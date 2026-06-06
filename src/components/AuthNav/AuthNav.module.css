@@ -1,0 +1,42 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+}
+
+.loginBtn {
+  color: #4f46e5;
+  border: 1px solid #e2e8f0;
+  background-color: transparent;
+}
+
+.loginBtn:hover {
+  background-color: #f8fafc;
+  border-color: #cbd5e1;
+}
+
+.registerBtn {
+  color: #ffffff;
+  background-color: #4f46e5;
+  border: 1px solid #4f46e5;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.registerBtn:hover {
+  background-color: #4338ca;
+  border-color: #4338ca;
+}
+:global(.active) {
+  color: inherit !important;
+}
